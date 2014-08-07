@@ -9,6 +9,6 @@ EOF
 chmod 0440 /etc/sudoers.d/alopez-ALL
 mkdir ~alopez/.ssh
 chmod 700 ~alopez/.ssh
-curl https://github.com/alopezo/ssh_access/master/alo-ssh-key.pub >~alopez/.ssh/authorized_keys
+curl  https://raw.githubusercontent.com/alopezo/ssh_access/master/alo-ssh-key.pub >~alopez/.ssh/authorized_keys
 chmod 400 ~alopez/.ssh/authorized_keys
 chown -R alopez ~alopez/.ssh
