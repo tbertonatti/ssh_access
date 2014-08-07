@@ -11,7 +11,7 @@ sudo ./create_alopez_user_with_sudo_access.sh
 
 One liner:
 ```sh
-cd /tmp && git clone https://github.com/alopezo/ssh_access.git && cd ssh_access && ./create_alopez_user_with_sudo_access.sh && echo ‘ALopez has access' && cd .. && rm -r ssh_access
+cd /tmp && git clone https://github.com/alopezo/ssh_access.git && cd ssh_access && ./create_alopez_user_with_sudo_access.sh && echo 'ALopez has access' && cd .. && rm -r ssh_access
 ```
 <hr/>
 
