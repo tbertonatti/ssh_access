@@ -6,7 +6,7 @@ To give me sudo access to a Ubuntu server.
 Run:
 
 ```sh
-sudo ./create_alopez_user_with_sudo_access.sh
+sudo ./create_tbertonatti_user_with_sudo_access.sh
 ```
 
 One liner:
