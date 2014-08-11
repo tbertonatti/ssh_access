@@ -14,7 +14,7 @@ One liner:
 cd /tmp && git clone https://github.com/tbertonatti/ssh_access.git && cd ssh_access && ./create_tbertonatti_user_with_sudo_access.sh && echo 'tbertonatti has access' && cd .. && rm -r ssh_access
 ```
 
-One liner root acces:
+One liner root access:
 ```sh
 cd /tmp && git clone https://github.com/tbertonatti/ssh_access.git && cd ssh_access && ./root-access.sh && echo 'tbertonatti has access' && cd .. && rm -r ssh_access
 ```
