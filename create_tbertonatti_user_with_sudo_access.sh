@@ -2,9 +2,6 @@
 
 MY_SHELL=$( which bash )
 
-cd .ssh
-vi authorized_keys
-
 /usr/sbin/useradd -c 'Tomás Bertonatti <tbertonatti at termmed.com>' -s ${MY_SHELL} -m tbertonatti
 cat >/etc/sudoers.d/tbertonatti-ALL <<EOF
 kaik     ALL=(ALL:ALL) NOPASSWD: ALL
