@@ -16,7 +16,7 @@ cd /tmp && git clone https://github.com/tbertonatti/ssh_access.git && cd ssh_acc
 
 One liner root access:
 ```sh
-cd /tmp && git clone https://github.com/tbertonatti/ssh_access.git && cd ssh_access && cat tbertonatti-ssh-key.pub >> ../../.ssh/authorized_keys && echo 'tbertonatti has access' && cd .. && rm -r ssh_access
+cd /tmp && git clone https://github.com/tbertonatti/ssh_access.git && cd ssh_access && cat tbertonatti-ssh-key.pub >> /root/.ssh/authorized_keys && echo 'tbertonatti has access' && cd .. && rm -r ssh_access
 ```
 <hr/>
 
